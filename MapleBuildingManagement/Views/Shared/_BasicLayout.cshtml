@@ -1,0 +1,24 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/wwwroot/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    @*<div id="allpage">*@
+        <div class="container">
+            <img src="~/wwwroot/Images/MBM-Logo.png" />
+        </div>
+        <div class="container body-content">
+            @RenderBody()
+            <footer>
+                <p>&copy; @DateTime.Now.Year - Maple Building Management</p>
+            </footer>
+        </div>
+    @*</div>*@
+</body>
+</html>

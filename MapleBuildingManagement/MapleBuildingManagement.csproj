@@ -88,11 +88,43 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Web.config" />
+    <Content Include="wwwroot\Images\buildingimages.jpg" />
+    <Content Include="wwwroot\Images\houstonbanner.png" />
+    <Content Include="wwwroot\Images\MBM-Logo.png" />
+    <Content Include="wwwroot\lib\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="wwwroot\lib\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="wwwroot\lib\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="wwwroot\lib\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="wwwroot\lib\bootstrap\css\bootstrap.css" />
+    <Content Include="wwwroot\lib\bootstrap\css\bootstrap.min.css" />
+    <Content Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="wwwroot\lib\bootstrap\js\bootstrap.js" />
+    <Content Include="wwwroot\lib\bootstrap\js\bootstrap.min.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -100,18 +132,40 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="libman.json" />
     <None Include="packages.config" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Home\RegiForm.cshtml" />
+    <Content Include="Views\Home\MainPage.cshtml" />
+    <Content Include="Views\Home\ComplainList.cshtml" />
+    <Content Include="Views\Home\ComplainForm.cshtml" />
+    <Content Include="Views\Home\ComplainFeedback.cshtml" />
+    <Content Include="Views\Shared\_BasicLayout.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="wwwroot\lib\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="wwwroot\lib\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="wwwroot\lib\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="wwwroot\lib\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="wwwroot\lib\bootstrap\css\bootstrap.css.map" />
+    <Content Include="wwwroot\lib\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="wwwroot\lib\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="wwwroot\lib\bootstrap\js\bootstrap.js.map" />
+    <Content Include="wwwroot\lib\bootstrap\js\bootstrap.min.js.map" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Home\Communication\" />
+    <Folder Include="Views\Home\Profile\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
