@@ -30,5 +30,9 @@ namespace MapleBuildingManagement.Controllers
         {
             return View();
         }
+        public ViewResult RegiForm()
+        {
+            return View();
+        }
     }
 }
