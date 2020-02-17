@@ -126,9 +126,11 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -136,7 +138,7 @@
     <Content Include="libman.json" />
     <None Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\Home\RegiForm.cshtml" />
     <Content Include="Views\Home\MainPage.cshtml" />
     <Content Include="Views\Home\ComplainList.cshtml" />
@@ -164,7 +166,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Home\Communication\" />
     <Folder Include="Views\Home\Profile\" />
   </ItemGroup>

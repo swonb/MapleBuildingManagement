@@ -22,10 +22,6 @@ namespace MapleBuildingManagement.Controllers
         {
             return View();
         }
-        public ViewResult Login()
-        {
-            return View();
-        }
         public ViewResult ComplainFeedback()
         {
             return View();

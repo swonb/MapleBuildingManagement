@@ -1,0 +1,23 @@
+﻿
+@model MapleBuildingManagement.Models.LoginModel
+@{
+    ViewBag.Title = "Login Page";
+}
+
+<div class="container">
+    <form action="./../Home/MainPage" method="post">
+        <h2>Login Here</h2>
+        <div class="form-group">
+            <label asp-for="Username" class="control-label col-sm-3">User Name:</label>
+            <input class="form-control" asp-for="Username" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Password" class="control-label col-sm-3">Password</label>
+            <input class="form-control" asp-for="Password" />
+        </div>
+        <div class=" form-group">
+            <button type="submit" class="btn btn-lg btn-block btn-primary">Login</button>
+        </div>
+    </form>
+</div>
+
